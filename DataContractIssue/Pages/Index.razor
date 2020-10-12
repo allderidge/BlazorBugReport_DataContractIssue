@@ -1,0 +1,14 @@
+﻿@page "/"
+<h1>Data Contract Issue</h1>
+
+@Error
+
+@code
+{
+    private string Error { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Error = DeseriliseIssue.TryCreateIssue();
+    }
+}
