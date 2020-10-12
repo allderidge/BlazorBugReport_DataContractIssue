@@ -1,0 +1,1 @@
+# BlazorBugReport_DataContractIssue
